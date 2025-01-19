@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    border: solid black 1px;
+    justify-content: ;
+}
+
+.nav-links {
+    margin-left: auto;
+}
