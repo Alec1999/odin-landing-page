@@ -20,3 +20,13 @@ nav {
     height: 150px;
     width: 150px;
 }
+
+.hero, header, footer {
+    background-color: #172937;
+    color: white;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
