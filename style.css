@@ -1,11 +1,27 @@
+/* This class adds the Roboto font to the page */
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
+    font-family: "Roboto";
     text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    width: 1000px; */
 }
 
 nav {
     display: flex;
     border: solid black 1px;
-    justify-content: ;
+    padding-bottom: 2%;
+    justify-content: center;
 }
 
 .nav-links {
@@ -16,17 +32,76 @@ nav {
     height: 200px;
 }
 
-.sub-images {
-    height: 150px;
-    width: 150px;
-}
-
 .hero, header, footer {
     background-color: #172937;
     color: white;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.hero-main {
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    width: 400px;
+    flex: 0 1 auto;
+    text-align: start;
+}
+
+.hero-main h1, .hero-main p {
+    margin: 0;
+}
+
+.sub-images-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sub-images {
+    height: 125px;
+    width: 125px;
+    border: solid #3882F6;
+    border-radius: 25px;
+}
+
+.sub-image-1, .sub-image-2, .sub-image-3, .sub-image-4 {
+    width: 125px;
+}
+
+.sub-image-1{
+    margin-left: 75px;
+}
+
+.sub-image-4 {
+    margin-right: 75px;
+}
+
 .section-2 {
     background-color: #E5E7EB;
     color: #1F2937;
+    height: 20vh;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2-sub {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 500px;
+    text-align: left;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
 }
