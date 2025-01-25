@@ -68,7 +68,7 @@ nav {
     height: 125px;
     width: 125px;
     border: solid #3882F6;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .sub-image-1, .sub-image-2, .sub-image-3, .sub-image-4 {
@@ -104,4 +104,41 @@ nav {
 .quote-name {
     display: flex;
     justify-content: flex-end;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: white;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex-basis: 732px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta-header {
+    font-weight: 900;
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.cta-main-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.cta-button {
+    display: flex;
 }
