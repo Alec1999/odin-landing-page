@@ -32,6 +32,17 @@ nav {
     height: 200px;
 }
 
+.button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.button2 {
+    border: solid white 2px;
+}
+
 .hero, header, footer {
     background-color: #172937;
     color: white;
@@ -54,8 +65,13 @@ nav {
     text-align: start;
 }
 
-.hero-main h1, .hero-main p {
+.hero-main h1, .hero-main p { 
     margin: 0;
+}
+
+.hero-main button {
+    margin-top: 10px;
+    border: none;
 }
 
 .sub-images-div {
@@ -112,6 +128,7 @@ nav {
     align-items: center;
     height: 20vh;
     color: white;
+    font-size: 16px;
 }
 
 .call-to-action {
@@ -123,6 +140,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 50px;
 }
 
 .cta-header {
@@ -142,3 +160,4 @@ nav {
 .cta-button {
     display: flex;
 }
+
