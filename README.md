@@ -1,6 +1,7 @@
 # odin-landing-page
 
 Landing page that is as close as possible to an example web page provided by The Odin Project.
+
 Live preview: https://alec1999.github.io/odin-landing-page/
 
 Image 1 created by Hub JACQU @ https://www.pexels.com/photo/historic-church-in-lucca-s-charming-piazza-29524064/
